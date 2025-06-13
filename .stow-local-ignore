@@ -1,4 +1,3 @@
-
 # Comments and blank lines are allowed.
 
 RCS
@@ -16,6 +15,7 @@ _darcs
 \.gitignore
 \.gitmodules
 \scripts
+\files
 
 .+~          # emacs backup files
 \#.*\#       # emacs autosave files

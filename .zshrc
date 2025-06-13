@@ -124,7 +124,7 @@ export NVM_DIR="$HOME/.nvm"
 # Alias for aichat --execute "..."
 alias ax="aichat --execute"
 # Use eza instead of ls for better file listing
-alias ls="eza"
+alias ls="eza --color=always --color-scale=all --color-scale-mode=gradient --icons=always --group-directories-first -a"
 
 # Init fzf zsh
 eval "$(fzf --zsh)"

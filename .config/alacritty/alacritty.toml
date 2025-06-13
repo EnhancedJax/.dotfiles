@@ -1,0 +1,98 @@
+[env]
+TERM = "xterm-256color"
+
+[general]
+import = [
+  # uncomment the flavour you want below:
+#   "~/.config/alacritty/catppuccin-latte.toml"
+  "~/.config/alacritty/catppuccin-frappe.toml"
+  # "~/.config/alacritty/catppuccin-macchiato.toml"
+  # "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[window]
+decorations = "Buttonless"
+blur = true
+
+[window.padding]
+x = 20
+y = 20
+
+[font]
+size = 12
+
+[font.normal]
+family = "JetBrainsMonoNL Nerd Font"
+
+# Cmd + D sends Ctrl-a d (horizontal split)
+[[keyboard.bindings]]
+key = "D"
+mods = "Command"
+chars = "\u0001%"
+
+# Cmd + Shift + D sends Ctrl-a D (vertical split)
+[[keyboard.bindings]]
+key = "D"
+mods = "Command|Shift"
+chars = "\u0001\""
+
+# Cmd + W sends Ctrl-a w (close pane)
+[[keyboard.bindings]]
+key = "W"
+mods = "Command"
+chars = "\u0001x"
+
+[[keyboard.bindings]]
+key = "1"
+mods = "Command"
+chars = "\u00011"
+
+[[keyboard.bindings]]
+key = "2"
+mods = "Command"
+chars = "\u00012"
+
+[[keyboard.bindings]]
+key = "1"
+mods = "Command"
+chars = "\u00013"
+
+[[keyboard.bindings]]
+key = "2"
+mods = "Command"
+chars = "\u00014"
+
+[[keyboard.bindings]]
+key = "1"
+mods = "Command"
+chars = "\u00015"
+
+[[keyboard.bindings]]
+key = "2"
+mods = "Command"
+chars = "\u00016"
+
+[[keyboard.bindings]]
+key = "1"
+mods = "Command"
+chars = "\u00017"
+
+[[keyboard.bindings]]
+key = "2"
+mods = "Command"
+chars = "\u00018"
+
+[[keyboard.bindings]]
+key = "P"
+mods = "Command"
+chars = "fcd\n"
+
+[[keyboard.bindings]]
+key = "T"
+mods = "Command"
+chars = "tmux attach\n"
+
+[[keyboard.bindings]]
+key = "R"
+mods = "Command"
+chars = "\u0001d"
